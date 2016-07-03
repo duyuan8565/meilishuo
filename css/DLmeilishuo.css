@@ -1,0 +1,290 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑", "Microsoft YaHei UI";
+}
+input,img{
+    border: none;
+    outline: none;
+}
+ol,ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #666;
+}
+.clear{
+    clear: both;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    overflow: hidden;
+}
+html body{
+    background: url("../img/55.jpg") no-repeat center top;
+    color: #666;
+    font-size: 12px;
+    font-family: Arial;
+}
+.wrap{
+    width: 100%;
+    border-bottom: 50px;
+}
+.wrap .reg_wrap{
+    width: 980px;
+    /*background: #fff;*/
+    margin: 0 auto;
+    z-index: 3;
+}
+.wrap .reg_wrap .head{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    display: block;
+}
+.wrap .reg_wrap .head .reg_logo{
+    display: inline-block;
+    background: url("../img/register_logo.png") no-repeat;
+    width: 157px;
+    height: 56px;
+    margin-right: 25px;
+}
+.wrap .reg_wrap .head .welcome_txt{
+    display: inline-block;
+    background: url("../img/welcome_txt.png") no-repeat;
+    width: 336px;
+    height: 50px;
+}
+.wrap .reg_wrap .main{
+    /*width: 980px;*/
+    height: 530px;
+    background: #fff;
+    padding-top: 40px;
+    padding-right: 50px;
+    padding-left: 80px;
+    margin-bottom: 40px;
+}
+.wrap .reg_wrap .main .ad_wrap{
+    float: left;
+}
+.wrap .reg_wrap .main .login_form{
+    float: right;
+    width: 320px;
+    margin-right: 30px;
+}
+.wrap .reg_wrap .main .login_form h3{
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.wrap .reg_wrap .main .login_form h3 a{
+    color: #f69;
+    text-decoration: underline;
+    float: right;
+    font-weight: normal;
+    padding-right: 3px;
+}
+.wrap .reg_wrap .main .login_form .login_list{
+    min-height: 68px;
+}
+.wrap .reg_wrap .main .login_form .login_list .login_box{
+    position: relative;
+}
+.wrap .reg_wrap .main .login_form .login_list p{
+    line-height: 30px;
+}
+.wrap .reg_wrap .main .login_form .login_list .login_txt{
+    width: 280px;
+    height: 34px;
+    border: 1px solid #ddd;
+    color: #999;
+    padding-left: 35px;
+}
+.wrap .reg_wrap .main .login_form .msg_err{
+    background: url("../img/login_icon-4.png") no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top:6px;
+    right: -30px;
+    background-position: -25px -25px;
+}
+.wrap .reg_wrap .main .login_form .user_icon{
+    background: url("../img/login_icon-4.png") no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-position: 0 0;
+    top:6px;
+    left: 5px;
+}
+.wrap .reg_wrap .main .login_form .msg_error{
+    color: #f69;
+    line-height: 30px;
+}
+.wrap .reg_wrap .main .login_form .pwd_icon{
+    background: url("../img/login_icon-4.png")no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-position: -25px 0;
+    top:5px;
+    left: 5px;
+}
+.wrap .reg_wrap .main .login_form .login_list .login_box .pic_auth{
+    margin: 10px;
+}
+.wrap .reg_wrap .main .login_form .login_list .login_txt{
+    width: 280px;
+    height: 34px;
+    border: 1px solid #ddd;
+    color: #999;
+    padding-left: 35px;
+}
+.wrap .reg_wrap .main .login_form .login_list .login_box .pic_auth ul{
+    display: inline-block;
+}
+.wrap .reg_wrap .main .login_form .login_list .login_box .pic_auth li{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    vertical-align: bottom;
+    margin-right: 2px;
+    background-size: cover;
+    background: url("../img/g_loading1.gif") no-repeat center;
+}
+.wrap .reg_wrap .main .login_form .login_list .login_box .pic_auth img{
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    /*-webkit-transition: all 0.5s ease-in-out;*/
+
+}
+.wrap .reg_wrap .main .login_form .login_list .login_box .pic_auth img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.wrap .reg_wrap .main .login_form .login_list .login_box .pic_auth .change_pic{
+    text-decoration: underline;
+    color: #f69;
+}
+.wrap .reg_wrap .main .login_form .login_Message{
+    margin-bottom: 12px;
+    color: #f69;
+}
+.wrap .reg_wrap .main .login_form .login_btn_wrap .login_btn{
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    border: 0;
+    width: 320px;
+    height: 46px;
+    background-color: #f69;
+    line-height: 46px;
+    cursor: pointer;
+}
+.wrap .reg_wrap .main .login_form .remember{
+    float: left;
+    padding-right: 16px;
+    cursor: pointer;
+    line-height: 30px;
+}
+input[type="checkbox"]{
+    margin: 3px 3px 3px 4px ;
+}
+label{
+    cursor: default;
+}
+.wrap .reg_wrap .main .login_form .forget_pwd{
+    line-height: 30px;
+    border-bottom: 1px solid #ccc;
+    text-decoration: underline;
+    padding-bottom: 5px;
+}
+.wrap .reg_wrap .main .login_form .forget_pwd a{
+    text-decoration: underline;
+    color: #f69;
+}
+.wrap .reg_wrap .main .login_form .fast_login h3{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: 14px;
+    font-weight: normal;
+}
+.wrap .reg_wrap .main .login_form .fast_login .fast_way{
+    padding-bottom: 60px;
+}
+.wrap .reg_wrap .main .login_form .fast_login .fast_way a{
+    float: left;
+    width: 100px;
+    height: 40px;
+    background: url("../img/qq.png") no-repeat;
+}
+.wrap .reg_wrap .main .login_form .fast_login .fast_way a.qq_way{
+    background-position: 0 -120px;
+}
+.wrap .reg_wrap .main .login_form .fast_login .fast_way a.weibo_way{
+    background-position: 0 -160px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.wrap .reg_wrap .main .login_form .fast_login .fast_way a.weixin_way{
+    background-position: 0 -200px;
+}
+.wrap .reg_wrap .main .login_form .more_way_wrap{
+    line-height: 26px;
+}
+.wrap .reg_wrap .main .login_form .more_way_wrap h4{
+    float: left;
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: normal;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+.wrap .reg_wrap .main .login_form .more_way_wrap .more_way{
+    float: left;
+}
+.wrap .reg_wrap .main .login_form .more_way_wrap .more_way a{
+    background: url("../img/login_icon-4.png") no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-right: 7px;
+    vertical-align: middle;
+}
+.wrap .reg_wrap .main .login_form .more_way_wrap .more_way a.txweibo{
+    background-position: -125px -25px;
+}
+.wrap .reg_wrap .main .login_form .more_way_wrap .more_way a.douban{
+    background-position: -100px -25px;
+}
+.wrap .reg_wrap .main .login_form .more_way_wrap .more_way a.renren{
+    background-position: -150px -25px;
+}
+.wrap .reg_wrap .main .login_form .more_way_wrap .more_way a.baidu{
+    background-position: -75px -25px;
+}
+.wrap .reg_wrap .main .login_form .guangbo{
+    background: url("../img/notice_m.png") no-repeat 0 center;
+    line-height: 30px;
+    color: #999;
+    padding-left: 22px;
+    margin-bottom: 15px;
+}
+.wrap .reg_wrap .main .login_form .guangbo a{
+    color: #f69;
+    /*display: block;*/
+    text-decoration: underline;
+}
+
+
+
+
